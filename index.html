@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Поваренная книга</h1>
+    </header>
+    <div>
+        <form action="search" id="sbyname">
+            <input type="text" id="search" name="search"><br>
+            <input type="submit" id="button" value="Поиск">
+        </form>
+        <div class = "content">
+            <div class = "searching_for">
+                <h3>Поиск</h3>
+                <h4>Поиск по категории:</h4>
+                <form1 class="categories" action="radio" style="display: flex; flex-direction: column;">
+                </form1>
+                <div class="all_categories" style="display: flex; align-items: center;">
+                    <input type="radio" id="option7" name="options" value="option7">
+                    <label for="option7" style="margin-left: 5px;">Все категории</label>
+                    <br>
+                    <input type="submit" id="button" value="Найти">
+                </div>        
+                <h4>Поиск по ключевым словам:</h4>
+                <form2>
+                    <input type="checkbox" id="option1" name="options" value="Свекла">
+                    <label for="option1">Свекла</label><br>
+                    <input type="checkbox" id="option2" name="options" value="Свинина">
+                    <label for="option2">Свинина</label><br>
+                    <input type="checkbox" id="option3" name="options" value="Капуста">
+                    <label for="option3">Капуста</label><br>
+                    <input type="checkbox" id="option4" name="options" value="Картофель">
+                    <label for="option4">Картофель</label><br>
+                    <input type="checkbox" id="option5" name="options" value="Нут">
+                    <label for="option5">Нут</label><br>
+                    <input type="checkbox" id="option6" name="options" value="Макароны">
+                    <label for="option6">Макароны</label><br>
+                    <input type="checkbox" id="option7" name="options" value="Помидоры">
+                    <label for="option7">Помидоры</label><br>
+                    <input type="checkbox" id="option8" name="options" value="Морковь">
+                    <label for="option8">Морковь</label><br>
+                    <input type="checkbox" id="option9" name="options" value="Лук">
+                    <label for="option9">Лук</label><br>
+                    <input type="checkbox" id="option10" name="options" value="Сыр">
+                    <label for="option10">Сыр</label><br>
+                    <input type="checkbox" id="option11" name="options" value="Лапша">
+                    <label for="option11">Лапша</label><br>
+                    <input type="checkbox" id="option12" name="options" value="Соевый соус">
+                    <label for="option12">Соевый соус</label><br>
+                    <input type="checkbox" id="option13" name="options" value="Говядина">
+                    <label for="option13">Говядина</label><br>
+                    <input type="checkbox" id="option14" name="options" value="Имбирь">
+                    <label for="option14">Имбирь</label><br>
+                    <input type="checkbox" id="option15" name="options" value="Чеснок">
+                    <label for="option15">Чеснок</label><br>
+                    <input type="checkbox" id="option16" name="options" value="Йогурт">
+                    <label for="option16">Йогурт</label><br>
+                    <input type="checkbox" id="option17" name="options" value="Курица">
+                    <label for="option17">Курица</label><br>
+                    <input type="checkbox" id="option18" name="options" value="Лимон">
+                    <label for="option18">Лимон</label><br>
+                    <input type="checkbox" id="option19" name="options" value="Масло">
+                    <label for="option19">Масло</label><br>
+                    <input type="checkbox" id="option20" name="options" value="Утка">
+                    <label for="option20">Утка</label><br>
+                    <input type="checkbox" id="option21" name="options" value="Апельсин">
+                    <label for="option21">Апельсин</label><br>
+                    <input type="checkbox" id="option22" name="options" value="Мед">
+                    <label for="option22">Мед</label><br>
+                    <input type="checkbox" id="option23" name="options" value="Уксус">
+                    <label for="option23">Уксус</label><br>
+                    <input type="checkbox" id="option24" name="options" value="Листы нори'">
+                    <label for="option24">Листы нори'</label><br>
+                    <input type="checkbox" id="option25" name="options" value="Рыба">
+                    <label for="option25">Рыба</label><br>
+                    <input type="checkbox" id="option26" name="options" value="Рис">
+                    <label for="option26">Рис</label><br>
+                    <input type="checkbox" id="option27" name="options" value="Креветки">
+                    <label for="option27">Креветки</label><br>
+                    <input type="checkbox" id="option28" name="options" value="Перец">
+                    <label for="option28">Перец</label><br>
+                    <input type="checkbox" id="option29" name="options" value="Кальмар">
+                    <label for="option29">Кальмар</label><br>
+                    <input type="checkbox" id="option30" name="options" value="Мидии">
+                    <label for="option30">Мидии</label><br>
+                    <input type="checkbox" id="option31" name="options" value="Миндаль">
+                    <label for="option31">Миндаль</label><br>
+                    <input type="checkbox" id="option32" name="options" value="Мука">
+                    <label for="option32">Мука</label><br>
+                    <input type="checkbox" id="option33" name="options" value="Чай">
+                    <label for="option33">Чай</label><br>
+                    <input type="checkbox" id="option34" name="options" value="Зира">
+                    <label for="option34">Зира</label><br>
+                    <input type="checkbox" id="option35" name="options" value="Кофе">
+                    <label for="option35">Кофе</label><br>
+                    <input type="checkbox" id="option36" name="options" value="Печенье">
+                    <label for="option36">Печенье</label><br>
+                    <input type="checkbox" id="option37" name="options" value="Сливки">
+                    <label for="option37">Сливки</label><br>
+                    <input type="checkbox" id="option38" name="options" value="Яйца">
+                    <label for="option38">Яйца</label><br>
+                    <input type="checkbox" id="option39" name="options" value="Авокадо">
+                    <label for="option39">Авокадо</label><br>
+                    <input type="checkbox" id="option40" name="options" value="Лайм">
+                    <label for="option41">Лайм</label><br>
+                    <input type="checkbox" id="option42" name="options" value="Кумин">
+                    <label for="option42">Кумин</label><br>
+                    <input type="checkbox" id="option42" name="options" value="Хлеб">
+                    <label for="option42">Хлеб</label><br>
+                    <input type="checkbox" id="option42" name="options" value="Соус Цезарь">
+                    <label for="option42">Соус Цезарь</label><br>
+                    <input type="checkbox" id="option42" name="options" value="Салат">
+                    <label for="option42">Салат</label><br>
+                    <input type="checkbox" id="option42" name="options" value="Кукуруза">
+                    <label for="option42">Кукуруза</label><br>
+                    <input type="checkbox" id="option42" name="options" value="Маслины">
+                    <label for="option42">Маслины</label><br>
+                    <input type="submit" id="button" value="Выбрать">
+                </form2>        
+            </div>
+            <div id="product-card-container" class="container"> 
+                <div class="product-card">
+                    <div class="image"> 
+                        <div class="image-hover">
+                            <img src="картинки для сайта/1.jpg" class="product-image">
+                        </div>
+                        <img class="like" src="heart.png" onclick="changeIcon(this)">
+                    </div>
+                    <a href="#"><h1 class="product-name">Борщ</h1></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/CatalogScripts.js"></script>
+    <!-- products scripts -->
+    <script src="products/read-product.js"></script>
+     <!--<script src="products/read-one-product.js"></script>-->
+    <script src="products/products.js"></script>
+    <script src="products/search-product-by-name.js"></script>
+    <script src="products/search.js"></script>
+</body>
+</html>
